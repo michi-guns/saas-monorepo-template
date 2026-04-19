@@ -1,6 +1,10 @@
 ## Tasks
 
-### T-1: Populate files under `packages\todo-contracts`
+### T-1: Turn Tasks 2 to 4 into Github Issues in Github Projects
+
+- [ ] Create a Github issue for each task in the "Tasks" section below, with the corresponding checklist items as sub-issues.
+
+### T-2: Populate files under `packages\todo-contracts`
 
 - Author: D. Stamatakis
 - Date: 19 April 2026
@@ -12,7 +16,7 @@
 - [ ] `packages\todo-contracts\src\index.ts` (Blocked by `RS-1`)
 - [ ] `packages\todo-contracts\package.json` (Blocked by `RS-1`)
 
-### T-2: Populate files under `packages\todo-core`
+### T-3: Populate files under `packages\todo-core`
 
 - Author: D. Stamatakis
 - Date: 19 April 2026
@@ -34,7 +38,7 @@
 - [ ] `packages\todo-core\src\index.ts` (Blocked by `RS-1`)
 - [ ] `packages\todo-core\package.json` (Blocked by `RS-1`)
 
-### T-3: Populate files under `packages\todo-persistence-drizzle`
+### T-4: Populate files under `packages\todo-persistence-drizzle`
 
 - Author: D. Stamatakis
 - Date: 19 April 2026
@@ -49,6 +53,8 @@
 
   - [ ] `packages\todo-persistence-drizzle\src\index.ts` (Blocked by `RS-1`)
   - [ ] `packages\todo-persistence-drizzle\package.json` (Blocked by `RS-1`)
+
+### T-5:
 
 ## Research
 

@@ -1,8 +1,7 @@
 import { Elysia } from 'elysia'
 
-const port = Number(process.env.PORT ?? 3001)
 
-const app = new Elysia()
+export const app = new Elysia()
   .onError(({ code, error, set }) => {
     if (code === 'NOT_FOUND') {
       set.status = 404
@@ -20,6 +19,3 @@ const app = new Elysia()
     runtime: 'bun',
   }))
   .get('/health', () => ({ status: 'ok' }))
-  .listen(port)
-
-console.log(`🦊 Elysia is running at ${app.server?.url ?? `http://localhost:${port}`}`)
