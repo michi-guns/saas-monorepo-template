@@ -20,16 +20,12 @@
 
 - Author: D. Stamatakis
 - Date: 19 April 2026
-
-- [ ] `packages\todo-core\src\application`
   - [ ] `packages\todo-core\src\application\todos\complete`
   - [ ] `packages\todo-core\src\application\todos\create`
   - [ ] `packages\todo-core\src\application\todos\list`
 
-- [ ] `packages\todo-core\src\domain`
   - [ ] `packages\todo-core\src\domain\todo`
 
-- [ ] `packages\todo-core\src\ports\`
   - [ ] `packages\todo-core\src\ports\in`
     - [ ] `packages\todo-core\src\ports\in\todos`
   - [ ] `packages\todo-core\src\ports\out`
@@ -45,6 +41,7 @@
 
 - [ ] `packages\todo-persistence-drizzle\src\client`
 - [ ] `packages\todo-persistence-drizzle\src\shared`
+
 - [ ] `packages\todo-persistence-drizzle\src\todos`
   - [ ] `packages\todo-persistence-drizzle\src\todos\dto`
   - [ ] `packages\todo-persistence-drizzle\src\todos\repositories`
@@ -54,7 +51,15 @@
   - [ ] `packages\todo-persistence-drizzle\src\index.ts` (Blocked by `RS-1`)
   - [ ] `packages\todo-persistence-drizzle\package.json` (Blocked by `RS-1`)
 
-### T-5:
+### T-5: Populate files under `apps\api-elysia`
+
+- [ ] `apps\api-elysia\src\bootstrap`
+
+- [ ] `apps\api-elysia\src\http\shared\middleware`
+
+- [ ] `apps\api-elysia\src\http\todos\complete`
+- [ ] `apps\api-elysia\src\http\todos\create`
+- [ ] `apps\api-elysia\src\http\todos\list`
 
 ## Research
 
